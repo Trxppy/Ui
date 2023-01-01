@@ -3,6 +3,7 @@ local tweenService = game:GetService("TweenService")
 local uis = game:GetService("UserInputService")
 local runService = game:GetService("RunService")
 local coreGui = game:GetService("CoreGui")
+local HTTPService = game:GetService("HttpService")
 
 --vars
 local viewport = workspace.CurrentCamera.ViewportSize
