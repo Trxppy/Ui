@@ -26,7 +26,7 @@ function Library:tween(object, goal, callback)
 	tween:Play()
 end
 
-function Library:new(options)
+function Library:CreateWindow(options)
 	local options = options or {}
 	options = Library:validate({
 		name = "Exotic Hub"
